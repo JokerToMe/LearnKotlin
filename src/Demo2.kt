@@ -1,8 +1,12 @@
 fun returnBig(a:Int,b:Int):Int{
-    if (a>b){
-        return a
-    }else{
-        return b
+//    if (a>b){
+//        return a
+//    }else{
+//        return b
+//    }
+    when(a>b){
+        true -> return a
+        else -> return b
     }
 }
 

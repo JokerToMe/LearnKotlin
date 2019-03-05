@@ -1,7 +1,7 @@
 package whendemo
 
 fun dairyGenerator(placeName:String){
-    var template = "今天去了${placeName},${whendemo.numToChinese(placeName.length)}"
+    var template = "今天去了${placeName},${numToChinese(placeName.length)}"
     println(template)
 }
 
